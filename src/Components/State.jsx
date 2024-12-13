@@ -2,7 +2,7 @@ import React from "react";
 
 export default function State({ state, value, noBorder }) {
 
-    let className = 'one-third'
+    let className = 'one-third '
     if (noBorder) {
         className += 'no-border'
     }

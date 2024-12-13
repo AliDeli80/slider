@@ -7,7 +7,7 @@ export default function UnitStates({ units, name }) {
     const states = units.map((unit, index) => <State
         state={unit.state}
         value={unit.value}
-        noBorder={index === units.lenght - 1}
+        noBorder={index === units.length - 1}
     />)
 
     return (
